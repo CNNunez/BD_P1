@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <bR>
+            <bR>
+            <div class="card text-center">
+                <div class="card-header">
+                    Editar información
+                </div>
+                <div class="card-body">
+                    <div class="input-group mb-3 input-group-sm">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Beneficiario 1</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nombre">
+                        <input type="text" class="form-control" placeholder="Identificación">
+                        <input type="text" class="form-control" placeholder="Fecha de nacimiento">
+                        <input type="text" class="form-control" placeholder="Parentesco">
+                        <input type="text" class="form-control" placeholder="Porcentaje">
+                        <input type="text" class="form-control" placeholder="Email">
+                        <input type="text" class="form-control" placeholder="Teléfonos">
+                    </div>
+                    <bR>
+                    <div class="input-group mb-3 input-group-sm">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Beneficiario 2</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nombre">
+                        <input type="text" class="form-control" placeholder="Identificación">
+                        <input type="text" class="form-control" placeholder="Fecha de nacimiento">
+                        <input type="text" class="form-control" placeholder="Parentesco">
+                        <input type="text" class="form-control" placeholder="Porcentaje">
+                        <input type="text" class="form-control" placeholder="Email">
+                        <input type="text" class="form-control" placeholder="Teléfonos">
+                    </div>
+                    <bR>
+                    <div class="input-group mb-3 input-group-sm">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Beneficiario 3</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nombre">
+                        <input type="text" class="form-control" placeholder="Identificación">
+                        <input type="text" class="form-control" placeholder="Fecha de nacimiento">
+                        <input type="text" class="form-control" placeholder="Parentesco">
+                        <input type="text" class="form-control" placeholder="Porcentaje">
+                        <input type="text" class="form-control" placeholder="Email">
+                        <input type="text" class="form-control" placeholder="Teléfonos">
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modaSuccess">Guardar</button>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modalFail">Cancelar</button>
+                </div>
+            </div>
+        </div>
+        <bR>
+        <bR>
+    </div>
+</div>
+
+
+
+
+<!-- Modal Success -->
+<div class="modal fade" id="modaSuccess" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Notificación</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                La cuenta se ha editado exitosamente!
+            </div>
+            <div class="modal-footer">
+                @Html.ActionLink("OK", "Usuario", new { area = "" }, new { @class = "btn btn-success" })
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Fail -->
+<div class="modal fade" id="modalFail" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Descartar</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Los cambios fueron descartados.
+            </div>
+            <div class="modal-footer">
+                @Html.ActionLink("CERRAR", "Usuario", new { area = "" }, new { @class = "btn btn-danger" })
+            </div>
+        </div>
+    </div>
+</div>

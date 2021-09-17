@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Usuario";
+}
+
+<div class="container">
+    <div class="col-md-10 offset-md-1">
+        <bR>
+        <bR>
+        <div class="container">
+            <div class="card">
+                <div class="card-header text-left">
+                    <h4 class="card-title">Informacion general</h4>
+                </div>
+                <div class="card-body text-left">
+                    <p class="card-text" id="Nombre">Nombre:</p>
+                    <p class="card-text" id="ID">ID:</p>
+                    <p class="card-text" id="Teléfonos">Teléfonos: </p>
+                    <p class="card-text" id="Email">Email: </p>
+                </div>
+            </div>
+        </div>
+        <bR>
+        <bR>
+        <div class="container">
+            <h2 class="text-center">Cuentas asociadas</h2>
+            <table class='table table-condensed table-striped table-hover'>
+                <tr><th>Cuenta</th><th>Monto</th><th>Opciones</th>
+                <tr class="table-row" data-href="#modalEdit">
+                    <td>cuenta 1</td>
+                    <td>11111</td>
+                    <td>
+                        @Html.ActionLink("EDIT", "Edit", new { area = "" }, new { @class = "btn btn-success" })
+                    </td>
+                </tr>
+                <tr class="table-row" data-href="#modalEdit">
+                    <td>cuenta 2</td>
+                    <td>22222</td>
+                    <td>
+                        @Html.ActionLink("EDIT", "Edit", new { area = "" }, new { @class = "btn btn-success" })
+                    </td>
+                </tr>
+                <tr class="table-row" data-toggle="modal" data-target="#modalEdit">
+                    <td>cuenta 3</td>
+                    <td>33333</td>
+                    <td>
+                        @Html.ActionLink("EDIT", "Edit", new { area = "" }, new { @class = "btn btn-success" })
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <bR>
+        <bR>
+        <div class="container">
+            @Html.ActionLink("LOGOUT", "Login", new { area = "" }, new { @class = "btn btn-secondary btn-block mb-4" })
+        </div>
+    </div>
+</div>
+
+
+
+

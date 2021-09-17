@@ -1,0 +1,10 @@
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\bin\Release\net48\Methods.dll
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\bin\Release\net48\Methods.pdb
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\bin\Release\net48\IronOcr.dll
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Release\net48\Methods.csproj.AssemblyReference.cache
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Release\net48\Methods.AssemblyInfoInputs.cache
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Release\net48\Methods.AssemblyInfo.cs
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Release\net48\Methods.csproj.CoreCompileInputs.cache
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Release\net48\Methods.csproj.CopyComplete
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Release\net48\Methods.dll
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Release\net48\Methods.pdb

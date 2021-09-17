@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <title>Carolina y Adrian</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+   
+
+    @* Main Layout *@
+    <div class="navbar navbar-expand-md navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow">
+        <div class="container">
+            <div class="navbar-header">
+                @Html.ActionLink("Home", "Index", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Pruebas", "Cuentas", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Login", "Login", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+        </div>
+    </div>
+
+    @*  Header Layout *@
+    <div class="jumbotron jumbotron-fluid text-center bg-dark text-white" style="margin-bottom:0">
+        <h1 class="display-1 text-warning">Cuentas Bancarias</h1>
+        <p class="display-4">Tarea #1</p>
+    </div>
+
+
+    @* Footer layout *@
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer class="navbar navbar-fixed-bottom">
+            <p>&copy; @DateTime.Now.Year - Cuentas Bancarias</p>
+        </footer>
+    </div>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

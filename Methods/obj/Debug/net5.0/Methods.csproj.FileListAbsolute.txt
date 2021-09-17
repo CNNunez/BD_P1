@@ -1,0 +1,11 @@
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\bin\Debug\net5.0\Methods.deps.json
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\bin\Debug\net5.0\Methods.dll
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\bin\Debug\net5.0\ref\Methods.dll
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\bin\Debug\net5.0\Methods.pdb
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Debug\net5.0\Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Debug\net5.0\Methods.AssemblyInfoInputs.cache
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Debug\net5.0\Methods.AssemblyInfo.cs
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Debug\net5.0\Methods.csproj.CoreCompileInputs.cache
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Debug\net5.0\Methods.dll
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Debug\net5.0\ref\Methods.dll
+C:\Users\Carolina\Documents\TEC\2021\BD\BD_P1\Methods\obj\Debug\net5.0\Methods.pdb

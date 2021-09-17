@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ltbyxn42nXYHLEpF2TtN2hs3u6OHiMmORGsIAl9GDsiCVYhyAwbGuAKwH4zi7T/XTxOm9gxdu//rUIRw8jb8WA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Carolina\\Documents\\TEC\\2021\\BD\\BD_P1\\Methods\\Methods.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carolina\\.nuget\\packages\\ironocr\\2021.6.0\\ironocr.2021.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

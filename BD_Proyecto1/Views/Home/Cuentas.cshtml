@@ -1,0 +1,30 @@
+﻿@*
+    View of the Cuentas page:
+        - Here you can see the Cuentas result.
+*@
+
+@model BD_Proyecto1.Models.CuentasModel
+@{
+    ViewBag.Title = "Cuentas";
+}
+
+
+<div class="container">
+
+    <div class="card">
+        <div class="card-header text-center">
+            <h4 class="card-title">Cuentas String</h4>
+        </div>
+        <div class="card-body">
+            <p class="card-text">Press the button to see the result.</p>
+            <form>
+                <div class="input-group text-center">
+                    <input id="result_txt" type="text" class="form-control text-center" value=@Html.DisplayFor(model => model.Result)>
+                    @Html.ActionLink("Get string", "Get_String", new { area = "" }, new { @class = "btn btn-success" })
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>
